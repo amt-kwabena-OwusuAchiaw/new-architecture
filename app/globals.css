@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  
+}
+
+.text-shadow {
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .custom-line-height {
+    line-height: normal;
+  }
+  
+  .custom-letter-spacing {
+    letter-spacing: 0.005rem;
+  }
+
+
+
+  .google-sign-up{
+    @apply  h-[2.5rem]  border-custom-gray w-[18.75rem]  text-black font-[400] rounded-[0.25rem] mb-[1.5rem] mt-[7px] shadow-input-shadow border flex gap-[1rem] justify-center  pt-[0.3rem];
+  }
+
+
+
+  .socials-not-active{
+    @apply w-[14.5rem] h-[2.25rem] text-black flex justify-center gap-[0.5rem] items-center border border-thin-gray rounded-[6.25rem] text-[1rem] 
+  }
+
+  
+
+  .socials-active{
+    @apply w-[14.5rem] h-[2.25rem] text-white bg-deep-blue flex justify-center gap-[0.5rem] items-center border border-deep-blue rounded-[6.25rem] text-[1rem] 
+  }
