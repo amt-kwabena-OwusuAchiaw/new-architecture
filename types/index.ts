@@ -54,11 +54,10 @@ import { ChangeEventHandler, Dispatch, SetStateAction } from "react";
 
 
 
- export interface  setActiveComponent: Dispatch<SetStateAction<string>>;
+ export interface   extraInterestProps {
+
+ setActiveComponent: Dispatch<SetStateAction<string>>;
  setStep: Dispatch<SetStateAction<number>>;
- setImageState:Dispatch<SetStateAction<string>>;{
-  setActiveComponent: Dispatch<SetStateAction<string>>;
-  setStep: Dispatch<SetStateAction<number>>;
-  setImageState:Dispatch<SetStateAction<string>>;
+ setImageState:Dispatch<SetStateAction<string>>
 
  }

@@ -3,6 +3,7 @@ import { Button } from "..";
 import correct from "../../assets/icons/done.svg";
 import { extraInterestProps } from "@/types";
 
+
 export default function ExtraInterest({ setActiveComponent, setStep,
   setImageState}:extraInterestProps) {
   const [data, setData] = useState([
